@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let numUser1 = parseInt(window.prompt("Digite o Primeiro Número"));
+        let numUser2 = parseInt(window.prompt("Digite o Segundo Número"));
+        let numUser3 = parseInt(window.prompt("Digite o Terceiro Número"));
+        let space = " ";
+
+        document.write("Seu primeiro número é:" + space + numUser1);
+        document.write("<br>");
+        document.write("Seu segundo número é:" + space + numUser2);
+        document.write("<br>");
+        document.write("Seu terceiro número é:" + space + numUser3);
+        document.write("<br>");
+        document.write("<br>");
+
+        /// Primeira questão
+        let sum = numUser1 + numUser2;
+        let div = sum / numUser3;
+        let result = div;
+
+        document.write("Questão 1: Pegue 3 valores do usuário e exiba a soma dos primeiros, dividido pelo terceiro.");
+        document.write("<br>");
+        document.write("O resultado da primeira questão é:" + space + result);
+        document.write("<br>");
+        document.write("<br>");
+
+        ///Segunda questão
+        let divQuestionTwo = numUser1 / 2;
+        let multi = divQuestionTwo * divQuestionTwo;
+        let resultTwo = multi;
+
+        document.write("Questão 2: Pegue a metade do primeiro valor do usuário e exiba elevado a segunda potência.");
+        document.write("<br>");
+        document.write("O resultado da segunda questão é:" + space + resultTwo);
+        document.write("<br>");
+        document.write("<br>");
+
+        //Terceira questão
+        let multiFour = sum * 4;
+        let resultThree = multiFour;
+
+        document.write("Questão 3: Pegue a soma dos primeiros valores e exiba a metade multiplicado por 4.");
+        document.write("<br>");
+        document.write("O resultado da terceira questão é:" + space + resultThree);
+    </script>
+</body>
+
+</html>

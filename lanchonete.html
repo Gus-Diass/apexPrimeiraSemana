@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="lanchonete.js"></script>
+
+<body>
+    <div>
+        <fieldset>
+            <legend>
+                Haverá uma lista com quatro produtos que uma lanchonete vende, o usuário precisa informar o código do produto, em seguida o valor pago por ele. Nosso sistema precisa retornar o troco que deve ser dado ao cliente, valide caso o cliente informe um pagamento
+                inferior ao valor do pedido.
+            </legend>
+        </fieldset>
+        <table>
+            <thead>
+                Tabela de produtos
+            </thead>
+            <tbody>
+                <div>
+                    <tr>
+                        <td>CÓDIGO</td>
+                        <td>PEDIDO</td>
+                        <td>VALOR</td>
+                    </tr>
+                </div>
+                <div>
+                    <tr>
+                        <th>1</th>
+                        <th>Pizza</th>
+                        <th>R$ 12 PILAS</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Pão de queijo</th>
+                        <th>R$ 4 PILAS</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Macarrão</th>
+                        <th>R$ 16 PILAS</th>
+                    </tr>
+                </div>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <fieldset>
+            <input type="text" id="cod" placeholder="DIGITE O CÓDIGO DO PRODUTO!" style="width: 25%;"></input>
+            <input type="text" id="product" placeholder="DIGITE O VALOR QUE VOCÊ DEPOSITOU!" style="width: 25%;"></input>
+            <button onclick="execute()">CALCULAR</button>
+        </fieldset>
+    </div>
+</body>
+
+</html>
